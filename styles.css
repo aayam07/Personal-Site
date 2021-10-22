@@ -1,0 +1,234 @@
+
+body {
+    color: #40514E;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    /* font-family: serif;  Default font family. Times New Roman by default  */
+    /* font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;  Arial by default */
+    font-family: 'Merriweather', serif;
+    /* font-size: 200%; */
+}
+
+
+h1 {
+    color: #66BFBF;
+    font-size: 5.625rem;  /* 100% = 16px = 1em in font size. This is dynamic font sizing. rem is root em which doesn't get inherited of other parent font sizes. */
+    font-family: 'Sacramento', cursive;
+    line-height: 1;
+    margin: 50px auto 0 auto;
+    /* for the elements whose width is set, to center it we use margin auto instead of text-align
+    for horizontal center: 0 auto; and for vertical center: auto 0; */
+    /* margin: 0 auto 0 auto; */
+}
+
+h2 {
+    color: #66BFBF;
+    /* font-family: 'Montserrat', sans-serif; */
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    color: #6D8299;
+    border-style: dotted none none none;
+    border-width: 8px;
+    width: 4%;
+    margin: 100px auto;
+}
+
+
+.top-container {
+    background-color: #EAF6F6;
+    /* line-height: 2; */
+    position: relative;
+    padding-top: 100px;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.bottom-cloud {
+    position: absolute;
+    /* top: 150px; */
+    left: 250px;
+    bottom: 300px;
+
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 40px;
+}
+
+/* .profile {
+    width: 50%;
+    margin: 0 auto;
+    color: #40514E;
+    font-weight: bold;
+} */
+
+.profile img {
+    border-radius: 50%;
+    /* margin-top: 50px; */
+}
+
+.heart-symbol {
+    color: red;
+}
+ 
+a {
+    color: #11999E; 
+    /* text-decoration: none;
+    font-family: 'Montserrat', sans-serif; */
+} 
+
+i:hover {
+    color: wheat;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 80px auto 0px;  /* To center the items/divs whose width is changed manually */
+    text-align: left;
+    /* line-height: 2; */
+}
+
+.code_img {
+    border-radius: 50%;
+    width: 20%;
+    float: left; /* wraps everything in its right side by itself staying on the left */
+    margin-right: 30px;
+}
+
+.pizza_img {
+    border-radius: 50%;
+    width: 20%;
+    float: right;  /* only use this property to wrap elements around a certain text when necessary. Donot use for positioning */
+    margin-left: 30px;
+}
+
+/* .contact-me {
+    width: 40%;
+    margin: 50px auto;
+    line-height: 1.5;
+} */
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background: #11999E;
+    background-image: -webkit-linear-gradient(top, #11999E, #66BFBF);
+    background-image: -moz-linear-gradient(top, #11999E, #66BFBF);
+    background-image: -ms-linear-gradient(top, #11999E, #66BFBF);
+    background-image: -o-linear-gradient(top, #11999E, #66BFBF);
+    background-image: -webkit-gradient(to bottom, #11999E, #66BFBF);
+    /* -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px; */
+    border-radius: 10px;
+    height: 0;
+    line-height: 0;
+    color: #FFFFFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 20px;
+    /* -webkit-box-shadow: 1px 1px 20px 0 #000000;
+    -moz-box-shadow: 1px 1px 20px 0 #000000;
+    box-shadow: 1px 1px 20px 0 #000000; */
+    text-shadow: 1px 1px 21px #000000;
+    /* border: solid #337FED 1px; */
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin: 20px auto;
+ }
+ 
+.btn:hover {
+    /* border: solid #337FED 1px; */
+    background: #66BFBF;
+    background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+    background-image: -webkit-gradient(to bottom, #66BFBF, #11999E);
+    /* -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px; */
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+/* .bottom-container p {
+    color: #EAF6F6;
+    margin-bottom: 0;
+    font-size:0.8rem;
+} */
+
+.footer-link {
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 1.6rem;
+    /* color: red; */
+}
+
+/* .skills {
+    margin: 70px;
+} */
+
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.8rem;
+    padding: 10px 0 0 0;
+}
+
+
+/* .skill-row img {
+    width: 25%;
+} */
+
+/* .skill-row p {
+    text-align: left;
+} */
+
+/*
+.code-skill-description {
+    clear: left;  /* prevents wrapping anything on the left of the paragraph 
+} */
+
+/* .pizza-skill-description {
+    clear: right;
+}  */
